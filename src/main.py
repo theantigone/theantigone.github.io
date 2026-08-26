@@ -1,10 +1,10 @@
 # from textnode import TextNode, TextType, text_node_to_html_node
 # from htmlnode import HTMLNode, LeafNode, ParentNode
-from inline_markdown import *
-
 import os
 import shutil
 import sys
+
+from inline_markdown import *
 
 if len(sys.argv) > 1:
     basepath = sys.argv[1]
@@ -358,18 +358,18 @@ def main():
     #    print(src_to_dst('static/', 'public/'))
     #    print(generate_page('content/index.md', 'template.html', 'public/index.html'))
 
-    if os.path.exists("images"):
-        shutil.rmtree("images")
-    if os.path.exists("contact"):
-        shutil.rmtree("contact")
-    if os.path.exists("projects"):
-        shutil.rmtree("projects")
-    if os.path.exists("credentials"):
-        shutil.rmtree("credentials")
-    if os.path.exists("index.css"):
-        os.remove("index.css")
-    if os.path.exists("index.html"):
-        os.remove("index.html")
+    #    if os.path.exists("images"):
+    #        shutil.rmtree("images")
+    #    if os.path.exists("contact"):
+    #        shutil.rmtree("contact")
+    #    if os.path.exists("projects"):
+    #        shutil.rmtree("projects")
+    #    if os.path.exists("credentials"):
+    #        shutil.rmtree("credentials")
+    #    if os.path.exists("index.css"):
+    #        os.remove("index.css")
+    #    if os.path.exists("index.html"):
+    #        os.remove("index.html")
 
     src_to_dst("static", "docs")
 
