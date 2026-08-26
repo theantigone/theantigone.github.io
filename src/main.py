@@ -380,11 +380,11 @@ def main():
     #    generate_page('content/contact/index.md', 'template.html', 'public/contact/index.html')
     generate_pages_recursive("content", "template.html", "docs", basepath)
 
-    docs = os.listdir("docs")
-    for path in docs:
-        full_path = os.path.join("docs", path)
-        shutil.move(full_path, os.getcwd())
-    os.rmdir("docs")
+    # docs = os.listdir("docs")
+    # for path in docs:
+    #    full_path = os.path.join("docs", path)
+    #    shutil.move(full_path, os.getcwd())
+    # os.rmdir("docs")
 
 
 if __name__ == "__main__":
