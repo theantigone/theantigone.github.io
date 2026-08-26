@@ -1,2 +1,2 @@
-python3 src/main.py "/static-site-generator/"
-#python3 src/main.py "/~qhoang/"
+#python3 src/main.py "/bootdev-static-site-generator/"
+python3 src/main.py "/~qhoang/"
