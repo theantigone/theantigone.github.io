@@ -16,10 +16,10 @@ files (such as `Markdown` and images) to static websites built in **HTML** and
 
 ### Motivation
 
-I wanted to create a [personal website](https://www.cs.wm.edu/~qhoang/) that
+I wanted to create a [personal website](https://theantigone.github.io) that
 hosts my portfolio/resume. I thought it would be nice to have everything on a
 website for ease of access to anyone interested.
 
-> This [website](https://www.cs.wm.edu/~qhoang/) was built using this generator!
+> This [website](https://theantigone.github.io) was built using this generator!
 
 [Source Code](https://github.com/theantigone/static-site-generator/)
